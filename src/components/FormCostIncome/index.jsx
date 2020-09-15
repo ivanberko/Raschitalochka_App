@@ -58,7 +58,6 @@ const FormCostIncome = ({
       comments: comments,
       typeBalanceAfter: balanceAfter > 0 ? "+" : "-",
     };
-    console.log(finance);
 
     postIncomeCost(user.id, token, finance);
     getFinance();
