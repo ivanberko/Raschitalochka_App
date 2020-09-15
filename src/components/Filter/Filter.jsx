@@ -28,7 +28,7 @@ const Filter = ({ financeData }) => {
         functions.getFilteredDataByYearAndMonth(financeData, year, month)
       );
     },
-    [month, year]
+    [financeData, month, year]
   );
 
   useEffect(
